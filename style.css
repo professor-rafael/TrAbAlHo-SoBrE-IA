@@ -33,7 +33,8 @@ button {
     color: var(--cor-texto);
     border: none;
     border-radius: 15px;
-    padding: 15px;
+    padding: 20px;
+    margin: 10px;
     transition: background-color 0.3s;
 }
 
@@ -120,6 +121,10 @@ footer {
 footer a {
     margin: 20px;
     text-align: center;
+    color: green;
+}
+a {
+    text-decoration: none;
 }
 
 footer p {
