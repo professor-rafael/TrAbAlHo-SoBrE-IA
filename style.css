@@ -22,6 +22,7 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    border: 2px solid #5BBE42;
 }
 
 h1{
@@ -52,7 +53,7 @@ button:hover{
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, #666454d8, #382a2ada);
+    background: linear-gradient(to left, blue, orangered, green);
     display: flex;
     align-items: center;
     justify-content: center;
