@@ -16,11 +16,6 @@ body {
     min-height: 100vh;
 }
 
-p:hover {
-    color: green; 
-    font-weight: bold;
-}
-
 .caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
@@ -62,6 +57,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+p:hover {
+    color: green; 
+    font-weight: bold;
 }
 
 .relogio {
