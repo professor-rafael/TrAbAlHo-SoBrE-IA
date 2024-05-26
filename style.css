@@ -23,6 +23,19 @@ body {
     text-align: center;
     padding: 20px;
     border: 2px solid #5BBE42;
+    animation: borderTransition 2s infinite alternate; 
+}
+
+@keyframes borderTransition {
+    0% {
+        border-color: red; 
+    }
+    50% {
+        border-color: blue; 
+    }
+    100% {
+        border-color: green; 
+    }
 }
 
 h1{
